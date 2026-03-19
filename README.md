@@ -80,12 +80,7 @@ QwenChat/
 
 ## Entitlements
 
-The app requires two entitlements in `QwenChat.entitlements`:
-
-| Entitlement | Purpose |
-|-------------|---------|
-| `com.apple.developer.kernel.increased-memory-limit` | Allows loading larger models into memory |
-| `com.apple.security.network.client` | Required for downloading models from Hugging Face |
+The current Xcode target does not use a custom entitlements file.
 
 ## License
 
